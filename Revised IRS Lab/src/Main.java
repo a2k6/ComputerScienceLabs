@@ -11,7 +11,7 @@ public class Main {
 	    System.out.println("Are you married or single?");
 	    singleOrMarried = in.nextLine();
 
-	    System.out.println("What is your current taxable income?(Please enter without the dollar sign)");
+	    System.out.println("What is your current taxable income?(Please enter without the dollar sign or comma(s))");
         income = in.nextDouble();
 
 	    if (singleOrMarried.equals("Single") || singleOrMarried.equals("single")){
@@ -48,6 +48,6 @@ public class Main {
 
 	    takeHome = income - tax;
 
-	    System.out.printf("You are %s and your gross income is $%.2f.\nYou have to pay $%.2f in taxes this year.\nYou will take home $%.2f this year.", singleOrMarried, income, tax, takeHome);
+	    System.out.printf("You are %s and your gross income is $%,.2f.\nYou have to pay $%,.2f in taxes this year.\nYou will take home $%,.2f this year.", singleOrMarried, income, tax, takeHome);
     }
 }
