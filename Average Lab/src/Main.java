@@ -9,7 +9,6 @@ public class Main {
         String[] input;
         ArrayList<Double> arr = new ArrayList<>();
         Scanner in = new Scanner(System.in);
-        Scanner value = new Scanner(System.in);
 
         System.out.println("\n" + "The average calculator is currently set to calculate the average of " + (int)var + " and " + (int)var1 + ".");
         System.out.println("Would you like to enter new values?" + "\n");
@@ -24,7 +23,7 @@ public class Main {
             System.exit(0);
         }
 
-        values = value.nextLine();
+        values = in.nextLine();
         input = values.split(" ");
 
        for (var i = 0; i < input.length; i++){

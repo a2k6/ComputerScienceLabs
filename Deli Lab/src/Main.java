@@ -15,6 +15,7 @@ public class Main {
 
 	    System.out.println("What is the price of the item you wish to purchase?(Please enter without the dollar sign)");
 		defaultCost = in.nextDouble();
+		in.close();
 
 		price = defaultCost;
 
