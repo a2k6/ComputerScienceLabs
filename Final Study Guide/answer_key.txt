@@ -1,0 +1,20 @@
+Symbols to know: 
+\n = New Line
+
+The import statments import the entire java language and utility libraries.
+
+The public class Main statement creates a class, which is almost like a container, to hold all of the code that will be run. It also allows for other files to access the code, since it is defined as a public class.
+
+The main function(void main) needs to have the String[] args so that the main method is defined and can be called by the Main class.
+
+The varible is not properly initialized because a double cannot hold a string value.
+
+The scanner won't take any input from the user becauase its input method is undefined; it needs to have system.in as the defined input, as it can also parse input from other sources, not just the console(also known as system.in).
+
+The output of the above code would be: Hello World\n
+
+The output from the if/else statement is: Option 2
+
+Both variables will have a value of 3.
+
+char testing will equal 0.
